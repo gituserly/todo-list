@@ -17,7 +17,7 @@
 
 .header {
     display: flex;
-    border-bottom: red solid 1px;
+    border-bottom: blue solid 1px;
     height: 64px;
 }
 
