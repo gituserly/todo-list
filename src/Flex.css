@@ -1,0 +1,56 @@
+.flex {
+    background-color: gray;
+    width: 500px;
+    height: 100x;
+    display: flex;
+}
+
+.flex1 {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    order: 3;
+}
+
+.flex2 {
+    background-color: blue;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    order: 1;
+}
+
+.flex3 {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    order: 2;
+}
+
+.flex4 {
+    background-color: brown;
+    width: 200px;
+    height: 70px;
+    line-height: 80px;
+}
+
+.flex5 {
+    background-color: yellow;
+    width: 200px;
+    height: 60px;
+    line-height: 80px;
+}
+
+.abso {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

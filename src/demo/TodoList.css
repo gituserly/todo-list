@@ -1,0 +1,13 @@
+* {
+    /* 所有样式 */
+    box-sizing: border-box;
+}
+
+.demo h1 {
+    font-size: 36px;
+    color: pink;
+}
+
+.demo-box {
+    border: 1px solid;
+}

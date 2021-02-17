@@ -1,0 +1,8 @@
+.demo-footer {
+    display: flex;
+    font-size: 12px;
+}
+
+.tabs {
+    flex: 1;
+}

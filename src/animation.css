@@ -1,0 +1,83 @@
+.animation1 {
+    background-color: brown;
+    width: 160px;
+    height: 100px;
+    color: blue;
+    transform: rotate(0deg);
+    transform-origin: left bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.animation2 {
+    border: red solid 1px;
+    width: 80px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(20px, 30px) rotate(30deg);
+}
+
+.animation3 {
+    background-color: burlywood;
+    width: 40px;
+    height: 30px;
+}
+
+.animation4 {
+    width: 0px;
+    height: 0px;
+    background-color: burlywood;
+    transition: width 2s, height 2s, border-radius 2s;
+}
+
+.animation4:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 29px;
+    line-height: 100px;
+    text-align: center;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+.animation5 {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    position: relative;
+    animation: dm 5s ease 2s infinite alternate;
+}
+
+@keyframes dm {
+    0% {
+        background-color: chocolate;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: crimson;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: cyan;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: darkblue;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: gold;
+        left: 0px;
+        top: 0px;
+    }
+}

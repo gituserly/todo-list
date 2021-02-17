@@ -1,0 +1,27 @@
+.todolist {
+    text-align: left;
+}
+
+
+/*.tabs div {
+    display: inline-block;
+    border: 1px solid red;
+    margin: 10px;
+    
+    
+}*/
+
+.tabs {
+    display: flex;
+}
+
+.tabs div {
+    width: 100px;
+    border: solid 1px red;
+}
+
+.active {
+    background-color: blue
+}
+
+;
